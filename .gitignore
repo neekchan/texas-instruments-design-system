@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+# Client-confidential material never enters this repo (RFP documents, TI-supplied decks)
+assets/Reference/*.pptx
+assets/Reference/*.docx
+assets/Reference/*.xlsx
+*RFP*
