@@ -44,7 +44,7 @@ The user's live brief wins for the task at hand. Then: this system's README and 
 
 ## Changing this system
 
-Edit the files in this repo and open a pull request; the private Claude design-system artifact mirrors it. A value change goes in `tokens.json` (never in prose alone); a rule change goes in the section that owns it and is mirrored in the README if the README states it; assets are added to their group with a line in that group's README. Record what changed and why in `lastChange`. Versioning: patch for wording and fixes, minor for a new rule, layout or asset group, major when existing builds would break.
+Edit the files in this repo and open a pull request; the private Claude design-system artifact mirrors it (`SYNC.md` maps the two; the artifact's confidential overview deck never comes here). A value change goes in `tokens.json` (never in prose alone); a rule change goes in the section that owns it and is mirrored in the README if the README states it; assets are added to their group with a line in that group's README. Record what changed and why in `lastChange`. Versioning: patch for wording and fixes, minor for a new rule, layout or asset group, major when existing builds would break.
 
 
 ---

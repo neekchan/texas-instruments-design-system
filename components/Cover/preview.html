@@ -1,0 +1,54 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Texas Instruments</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--surface); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; width:960px; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .red  { fill:var(--red); }
+  .teal { fill:var(--teal-deck); }
+  .deep { fill:var(--line-strong); }
+  .tint { fill:var(--surface-alt); }
+  .dot  { fill:var(--teal-deck-300); }
+  .rule { fill:var(--red); }
+  .sq   { rx:var(--radius-0); }
+  .words { position:absolute; left:var(--space-12); bottom:var(--space-12); max-width:440px; }
+  .name { margin:0; font-size:60px; line-height:.95; font-weight:700; letter-spacing:-.01em; color:var(--ink); }
+  .tag { margin:var(--space-2) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      red 144×240 bled off the top (the brand, largest) · teal-deck 160×120 · line-strong 304×112 bleeding off the right and bottom (TI's near-black ink) · surface-alt 144×48 tint under the red slab for relief — ≈31% of 960×288
+  arrangement one tall red slab with satellites, the ink block running off the right and bottom edges the way TI's footer rule runs off the slide
+  pattern     a dot grid, from "precise, technical, a 4px grid → a dot or plus grid at one spacing step": TI is a semiconductor company that composes on white with circuit-trace cover art, so the one pattern is a regular grid of teal-deck-300 dots at a space-6 pitch over the ink block, plus TI's one signature device, the red footer rule (6px, deck-rule-weight), crossing the satellites at the footer line and stopping 48px (deck-margin, ≈ deck-rule-inset) short of the right edge the way it does on every TI slide
+  scales      sides in space-2 multiples (144 = 6×space-6, 240 = 10×space-6, 160, 120, 304, 112); gutters space-4 (16); dot pitch space-6 (24), dot radius 2 = half of border-rule; rule height deck-rule-weight (6), rule inset deck-rule-inset; corners radius-0 — a square system
+-->
+<rect class="red sq"  x="16"  y="-16" width="144" height="240"/>
+<rect class="tint sq" x="16"  y="240" width="144" height="48"/>
+<rect class="teal sq" x="176" y="48"  width="160" height="120"/>
+<rect class="deep sq" x="176" y="184" width="320" height="112"/>
+<g class="dot">
+  <circle cx="192" cy="200" r="2"/><circle cx="216" cy="200" r="2"/><circle cx="240" cy="200" r="2"/><circle cx="264" cy="200" r="2"/><circle cx="288" cy="200" r="2"/><circle cx="312" cy="200" r="2"/><circle cx="336" cy="200" r="2"/><circle cx="360" cy="200" r="2"/><circle cx="384" cy="200" r="2"/><circle cx="408" cy="200" r="2"/><circle cx="432" cy="200" r="2"/><circle cx="456" cy="200" r="2"/>
+  <circle cx="192" cy="224" r="2"/><circle cx="216" cy="224" r="2"/><circle cx="240" cy="224" r="2"/><circle cx="264" cy="224" r="2"/><circle cx="288" cy="224" r="2"/><circle cx="312" cy="224" r="2"/><circle cx="336" cy="224" r="2"/><circle cx="360" cy="224" r="2"/><circle cx="384" cy="224" r="2"/><circle cx="408" cy="224" r="2"/><circle cx="432" cy="224" r="2"/><circle cx="456" cy="224" r="2"/>
+  <circle cx="192" cy="248" r="2"/><circle cx="216" cy="248" r="2"/><circle cx="240" cy="248" r="2"/><circle cx="264" cy="248" r="2"/><circle cx="288" cy="248" r="2"/><circle cx="312" cy="248" r="2"/><circle cx="336" cy="248" r="2"/><circle cx="360" cy="248" r="2"/><circle cx="384" cy="248" r="2"/><circle cx="408" cy="248" r="2"/><circle cx="432" cy="248" r="2"/><circle cx="456" cy="248" r="2"/>
+  <circle cx="192" cy="272" r="2"/><circle cx="216" cy="272" r="2"/><circle cx="240" cy="272" r="2"/><circle cx="264" cy="272" r="2"/><circle cx="288" cy="272" r="2"/><circle cx="312" cy="272" r="2"/><circle cx="336" cy="272" r="2"/><circle cx="360" cy="272" r="2"/><circle cx="384" cy="272" r="2"/><circle cx="408" cy="272" r="2"/><circle cx="432" cy="272" r="2"/><circle cx="456" cy="272" r="2"/>
+</g>
+<rect class="rule" x="176" y="174" width="256" height="6"/>
+</svg>
+</div>
+<div class="words">
+  <h1 class="name">Texas<br>Instruments</h1>
+  <p class="tag">White space, Arial, one red object per surface.</p>
+</div>
+</div>
+</body>
+</html>

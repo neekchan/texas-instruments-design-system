@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 — 2026-10-05
+
+Repo and Claude Design artifact synced. The artifact takes the 1.1.0 deck-template section, the PowerPoint section's template bullet and the neutral `tokens.json` source line; the repo takes the artifact's cover card (`components/Cover/preview.html`). New `SYNC.md` maps the two homes. TI's company overview deck stays in the private artifact only and is marked never-sync in both homes (`SYNC.md`, `AGENTS.md`, `LLM_ENTRYPOINT.md`, the artifact's Reference README, PowerPoint and Agent workflow sections); `.gitignore` names it. Repository history was reset to one commit so the deck no longer appears in any earlier version.
+
 ## 1.1.0 — 2026-10-05
 
 PowerPoint template made fillable for team decks. 34 layouts on TI's master, in the New Slide menu: 18 TI layouts (cover, red section divider, teal appendix divider, agenda, title + body, two columns, statement, three columns, stat strip, chart + takeaway, table, image + text, timeline, team, pull quote, title only, closing, blank) and 16 structures adapted from The Hoffman Agency's 2025 AMEA template (one per colour family), rescaled to 10 in, kept above TI's footer band and remapped into TI's palette. Every box carries prompt text with its word budget. Theme named "Texas Instruments" with ten custom colours in the colour picker; new shapes default to teal, new lines to teal 1.5pt, new text boxes to Arial 12pt; new tables default to a hairline style with a grey-100 header. Slide numbers are live fields. Example slides lose their typed page numbers, and ten non-integer coordinates on slides 8–10 that could trigger PowerPoint's repair prompt are fixed. Build scripts: `tools/add_layouts.py`, `tools/port_hoffman_layouts.py`.

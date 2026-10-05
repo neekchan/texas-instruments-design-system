@@ -1,6 +1,6 @@
 # Texas Instruments design system
 
-**Version 1.1.0** · the TI brand layer for The Hoffman Agency's work on Texas Instruments: tokens, brand book, slide craft, delivery gate and a PowerPoint template, built from TI's public sources (ti.com's Polaris CSS tokens, the published signature files, TI's trademark pages) and from the brand-agnostic craft layer of the [Hoffman Agency design system](https://github.com/neekchan/hoffman-agency-design-system).
+**Version 1.1.1** · the TI brand layer for The Hoffman Agency's work on Texas Instruments: tokens, brand book, slide craft, delivery gate and a PowerPoint template, built from TI's public sources (ti.com's Polaris CSS tokens, the published signature files, TI's trademark pages) and from the brand-agnostic craft layer of the [Hoffman Agency design system](https://github.com/neekchan/hoffman-agency-design-system).
 
 Private repository for The Hoffman Agency's TI team. It carries TI's brand assets for TI's own work; do not fork, mirror or make public.
 

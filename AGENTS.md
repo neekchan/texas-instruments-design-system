@@ -25,6 +25,8 @@ The canonical instruction file for any coding or design agent working in this re
 
 Client-confidential material never enters this repo: no RFP documents, no TI-supplied internal decks, nothing TI gave Hoffman under the pitch. It stays in Hoffman's TI client files.
 
+This repo and Nic's private Claude Design artifact "Texas Instruments" are the system's two homes, kept in sync file by file (`SYNC.md` maps them). One exception: the artifact's `assets/TI_Overview_2026.pptx` (TI's confidential company overview) stays in the artifact and is never synced here.
+
 Every asset is in the repo; nothing needs fetching. `tools/fetch-assets.sh` exists only to refresh the signature files from ti.com if TI republishes them.
 
 
